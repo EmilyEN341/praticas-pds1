@@ -2,15 +2,14 @@ package modelo;
 
 public class Pessoa {
 	
-	private String nome;
+	private String user;
 
 	public String getNome() {
-		return nome;
+		return user;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setNome(String user) {
+		this.user = user;
 	}
-	
 	
 }

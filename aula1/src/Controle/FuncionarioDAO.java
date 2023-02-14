@@ -12,6 +12,6 @@ public class FuncionarioDAO{
 	}
 	
 	public boolean inserir(Funcionario func) {
-		
+		return false;
 	}
 }
