@@ -24,7 +24,17 @@ Botão
 
 4.Quais são os propósitos dos layouts no Swing? E quais são os layouts possíveis?
 R: Transformar o código em uma tela intuitiva, os tipos de layout são:
-  -
+  - Absolute layout;
+  - FlowLayout;
+  - BorderLayout;
+  - BoxLayout;
+  - GridLayout;
+  - CardLayout;
+  - GridBagLayout;
+  - SpringLayout;
+  - JGoodies FormLayout;
+  - MigLayout;
+  - GruopLayout.
 
 5.Como é possível fazer a validação de entrada de dados em campos de texto?
 R:
