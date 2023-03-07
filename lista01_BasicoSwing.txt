@@ -1,0 +1,32 @@
+#QUESTÕES CONCEITUAIS
+1.Em programação, o que é uma biblioteca?
+
+
+2.O que é a biblioteca Swing do Java e qual é o seu propósito?
+
+3.Quais são os componentes de interface gráfica de usuário (GUI) fornecidos pela biblioteca Swing para:
+Botão
+- Campo de Texto
+- Caixa de Seleção
+- Barra de Progresso
+- Botão de Opção
+- Caixa de Combinação
+
+4.Quais são os propósitos dos layouts no Swing? E quais são os layouts possíveis?
+
+5.Como é possível fazer a validação de entrada de dados em campos de texto?
+
+6.Pesquise e descreva três principais características entre a biblioteca Swing, a biblioteca AWT (Abstract Window Toolkit) e o JavaFX?
+
+7.Pesquise o conceito de “Look & Feel” dentro do contexto de interfaces gráficas com Swing no Java. Procure alguns exemplos de temas, como o tema FlatLaf (https://github.com/JFormDesigner/FlatLaf). (Dica: você pode explorar opções no GitHub.)
+
+QUESTÕES PRÁTICAS
+QUESTÕES BÁSICAS COM JOPTIONPANE - SEM MVC E DAO
+1.Faça um programa que lê precoLitro (tipo Double) e quantidadeLitros (tipo Integer) usando o método showInputDialog da classe JOptionPane. Crie um método (função) que calcule o totalPagamento e use ele para calcular os valores inseridos. Exiba o valor final utilizando o método showMessageDialog da classe JOptionPane.
+
+2.Crie uma lista (ArrayList) de String. Preencha 10 (dez) elementos nesta lista fazendo a leitura com o método showInputDialog da classe JOptionPane em um for array. Em seguida, exiba todos os dados de uma só vez utilizando o método showMessageDialog da classe JOptionPane.
+
+3.Considere um programa que deve calcular a média final (MF) de apenas um(a) discente com três notas (tipo Double) obtidas através do método showInputDialog da classe JOptionPane. Ao final, o programa deve informar (usando showMessageDialog da classe JOptionPane):
+- Se MF >= 6: Aprovado(a)
+- Se MF >= 4 e < 6: Recuperação
+- Se MF < 4: Reprovado(a)
