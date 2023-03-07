@@ -23,15 +23,18 @@ Botão
   R: JComboBox
 
 4.Quais são os propósitos dos layouts no Swing? E quais são os layouts possíveis?
+R: 
 
 5.Como é possível fazer a validação de entrada de dados em campos de texto?
+R:
 
 6.Pesquise e descreva três principais características entre a biblioteca Swing, a biblioteca AWT (Abstract Window Toolkit) e o JavaFX?
+R: 
 
 7.Pesquise o conceito de “Look & Feel” dentro do contexto de interfaces gráficas com Swing no Java. Procure alguns exemplos de temas, como o tema FlatLaf (https://github.com/JFormDesigner/FlatLaf). (Dica: você pode explorar opções no GitHub.)
 
 
-QUESTÕES PRÁTICAS
+#QUESTÕES PRÁTICAS
 QUESTÕES BÁSICAS COM JOPTIONPANE - SEM MVC E DAO
 1.Faça um programa que lê precoLitro (tipo Double) e quantidadeLitros (tipo Integer) usando o método showInputDialog da classe JOptionPane. Crie um método (função) que calcule o totalPagamento e use ele para calcular os valores inseridos. Exiba o valor final utilizando o método showMessageDialog da classe JOptionPane.
 
