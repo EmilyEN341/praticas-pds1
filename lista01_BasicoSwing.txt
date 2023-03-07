@@ -23,7 +23,8 @@ Botão
   R: JComboBox
 
 4.Quais são os propósitos dos layouts no Swing? E quais são os layouts possíveis?
-R: 
+R: Transformar o código em uma tela intuitiva, os tipos de layout são:
+  -
 
 5.Como é possível fazer a validação de entrada de dados em campos de texto?
 R:
