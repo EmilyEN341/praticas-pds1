@@ -1,16 +1,26 @@
 #QUESTÕES CONCEITUAIS
 1.Em programação, o que é uma biblioteca?
-
+R: É um termo utilizado para a definição do código-fonte compilado, o qual possibilita adicionar novas funções ao código-fonte do software.
 
 2.O que é a biblioteca Swing do Java e qual é o seu propósito?
+R: É uma biblioteca do java com o intuito de criar interfaces gráficas.
 
 3.Quais são os componentes de interface gráfica de usuário (GUI) fornecidos pela biblioteca Swing para:
 Botão
 - Campo de Texto
+  R: JTextField
+  
 - Caixa de Seleção
+  R: JRadioButton
+  
 - Barra de Progresso
+  R: JProgressBar
+  
 - Botão de Opção
+  R: JCheckBox
+  
 - Caixa de Combinação
+  R: JComboBox
 
 4.Quais são os propósitos dos layouts no Swing? E quais são os layouts possíveis?
 
@@ -19,6 +29,7 @@ Botão
 6.Pesquise e descreva três principais características entre a biblioteca Swing, a biblioteca AWT (Abstract Window Toolkit) e o JavaFX?
 
 7.Pesquise o conceito de “Look & Feel” dentro do contexto de interfaces gráficas com Swing no Java. Procure alguns exemplos de temas, como o tema FlatLaf (https://github.com/JFormDesigner/FlatLaf). (Dica: você pode explorar opções no GitHub.)
+
 
 QUESTÕES PRÁTICAS
 QUESTÕES BÁSICAS COM JOPTIONPANE - SEM MVC E DAO
