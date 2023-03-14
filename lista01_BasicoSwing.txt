@@ -7,62 +7,120 @@ R: É uma biblioteca do java com o intuito de criar interfaces gráficas.
 
 3.Quais são os componentes de interface gráfica de usuário (GUI) fornecidos pela biblioteca Swing para:
 Botão
+
 - Campo de Texto
-  R: JTextField
-  
+R: JTextField
 - Caixa de Seleção
-  R: JRadioButton
-  
+R: JRadioButton
 - Barra de Progresso
-  R: JProgressBar
-  
+R: JProgressBar
 - Botão de Opção
-  R: JCheckBox
-  
+R: JCheckBox
 - Caixa de Combinação
-  R: JComboBox
+R: JComboBox
 
 4.Quais são os propósitos dos layouts no Swing? E quais são os layouts possíveis?
 R: Transformar o código em uma tela intuitiva, os tipos de layout são:
-  - Absolute layout;
-  - FlowLayout;
-  - BorderLayout;
-  - BoxLayout;
-  - GridLayout;
-  - CardLayout;
-  - GridBagLayout;
-  - SpringLayout;
-  - JGoodies FormLayout;
-  - MigLayout;
-  - GruopLayout.
+
+- Absolute layout;
+- FlowLayout;
+- BorderLayout;
+- BoxLayout;
+- GridLayout;
+- CardLayout;
+- GridBagLayout;
+- SpringLayout;
+- JGoodies FormLayout;
+- MigLayout;
+- GruopLayout.
 
 5.Como é possível fazer a validação de entrada de dados em campos de texto?
 R:
-        String user = txtUser.getText();
-				String cpf = txtCpf.getText();
-				
-				//Exemplo de validação
-				if(user.isEmpty()) {
-					JOptionPane.showMessageDialog(null, "Nenhum usuário foi informado");
-				}
-				
-				if(cpf.isEmpty()) {
-					JOptionPane.showMessageDialog(null, "Nenhum CPF foi informado");
-				}
+
+```java
+String user = txtUser.getText();
+String cpf = txtCpf.getText();			
+//Exemplo de validação
+			if(user.isEmpty()) {
+				JOptionPane.showMessageDialog(null, "Nenhum usuário foi informado");
+			}
+
+			if(cpf.isEmpty()) {
+				JOptionPane.showMessageDialog(null, "Nenhum CPF foi informado");
+			}
+
+```
 
 6.Pesquise e descreva três principais características entre a biblioteca Swing, a biblioteca AWT (Abstract Window Toolkit) e o JavaFX?
-R: 
+R:
 
-7.Pesquise o conceito de “Look & Feel” dentro do contexto de interfaces gráficas com Swing no Java. Procure alguns exemplos de temas, como o tema FlatLaf (https://github.com/JFormDesigner/FlatLaf). (Dica: você pode explorar opções no GitHub.)
+- Swing:
+- AWT:
+- JavaFX:
 
+7.Pesquise o conceito de “Look & Feel” dentro do contexto de interfaces gráficas com Swing no Java. Procure alguns exemplos de temas, como o tema FlatLaf ([https://github.com/JFormDesigner/FlatLaf](https://github.com/JFormDesigner/FlatLaf)). (Dica: você pode explorar opções no GitHub.)
 
 #QUESTÕES PRÁTICAS
 QUESTÕES BÁSICAS COM JOPTIONPANE - SEM MVC E DAO
-1.Faça um programa que lê precoLitro (tipo Double) e quantidadeLitros (tipo Integer) usando o método showInputDialog da classe JOptionPane. Crie um método (função) que calcule o totalPagamento e use ele para calcular os valores inseridos. Exiba o valor final utilizando o método showMessageDialog da classe JOptionPane.
 
-2.Crie uma lista (ArrayList) de String. Preencha 10 (dez) elementos nesta lista fazendo a leitura com o método showInputDialog da classe JOptionPane em um for array. Em seguida, exiba todos os dados de uma só vez utilizando o método showMessageDialog da classe JOptionPane.
-
-3.Considere um programa que deve calcular a média final (MF) de apenas um(a) discente com três notas (tipo Double) obtidas através do método showInputDialog da classe JOptionPane. Ao final, o programa deve informar (usando showMessageDialog da classe JOptionPane):
+1. Faça um programa que lê precoLitro (tipo Double) e quantidadeLitros (tipo Integer) usando o método showInputDialog da classe JOptionPane. Crie um método (função) que calcule o totalPagamento e use ele para calcular os valores inseridos. Exiba o valor final utilizando o método showMessageDialog da classe JOptionPane.
+    
+    ```java
+    //Criar uma classe comum, como por exmplo:
+    package exemplo;
+    
+    public class ExercicioUm{
+    	public tatic void main (Sting[] args){
+    
+    		//Leitura
+    		String preco = JoptionPane.showInputDialog("Insira o preço do litro ");
+    		
+    		String qtd = JoptionPane.showInputDialog("Insira a quantidade de litro ");
+    
+    		//Conversão
+    		Double precoD = Double.valueOf(preco);
+    		Double qtdD = Double.valueOf(qtd);
+    
+    		Double valorTotal = calculaPreco(prrecoD, qtdD);
+    
+    		JOptionPane.howMessageDialog(null, valorTotal);
+    }
+    
+    private static Double calacula Preco (Double precoD, Double qtdD){
+    	return precoD * qtdD;
+    }
+    ```
+    
+2. Crie uma lista (ArrayList) de String. Preencha 10 (dez) elementos nesta lista fazendo a leitura com o método showInputDialog da classe JOptionPane em um for array. Em seguida, exiba todos os dados de uma só vez utilizando o método showMessageDialog da classe JOptionPane.
+3. Considere um programa que deve calcular a média final (MF) de apenas um(a) discente com três notas (tipo Double) obtidas através do método showInputDialog da classe JOptionPane. Ao final, o programa deve informar (usando showMessageDialog da classe JOptionPane):
 - Se MF >= 6: Aprovado(a)
 - Se MF >= 4 e < 6: Recuperação
 - Se MF < 4: Reprovado(a)
+
+**QUESTÕES DE SWING - SEM MVC E DAO**
+
+1. Faça uma janela (JFrame) com dois campos de texto (inputs). Você deve criar quatro botões com os operadores de soma, subtração, divisão e multiplicação. Programe cada botão para realizar uma operação de acordo com o que foi clicado, e exiba o resultado em uma caixa de diálogo com o showMessageDialog (JOptionPane).
+2. Faça uma janela (JFrame) com três campos de texto (inputs) - que representam os lados de um triângulo - e apenas um botão. Programe o botão para que, quando clicado, verifique que tipo de triângulo é representado pelos lados inseridos - triângulo equilátero (três lados iguais), isósceles (dois lados iguais) ou escaleno (três lados diferentes).
+    
+    ```java
+    // Pegar o que for digitado
+    String triangulo1 = txtTriangulol.getText (); 
+    String triangulo2 = txtIriangulo2.getText ();
+    String triangulo3 = txtTriangulo3.getText ();
+    
+    //Conversão de tipo
+    Double tri1 = Double.valueOf(triangulo1);
+    Double tri2 = Double.valueOf(triangulo2);
+    Double tri3 = Double.valueOf(triangulo3);
+    
+    //Validação
+    if((tri1) equals (tri2)) && (tri2) ==  (tri3)){
+    }
+    ```
+    
+3. Faça uma janela (JFrame) como se pede:
+    1. Quatro campos de texto (JTextField): um campo de texto representa o nome do estudante e outros três representam as notas de um(a) estudante;
+    2. Quatro JLabels para cada campo de texto, representando o que cada campo de texto é, respectivamente (nome, nota 1, nota 2, nota 3);
+    3. Um botão (JButton) com texto “CALCULAR”
+
+Ao clicar no botão, o seu sistema deve calcular a média do estudante e exibir o resultado em uma caixa de diálogo com o showMessageDialog (JOptionPane)
