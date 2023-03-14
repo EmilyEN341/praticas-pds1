@@ -38,6 +38,17 @@ R: Transformar o código em uma tela intuitiva, os tipos de layout são:
 
 5.Como é possível fazer a validação de entrada de dados em campos de texto?
 R:
+        String user = txtUser.getText();
+				String cpf = txtCpf.getText();
+				
+				//Exemplo de validação
+				if(user.isEmpty()) {
+					JOptionPane.showMessageDialog(null, "Nenhum usuário foi informado");
+				}
+				
+				if(cpf.isEmpty()) {
+					JOptionPane.showMessageDialog(null, "Nenhum CPF foi informado");
+				}
 
 6.Pesquise e descreva três principais características entre a biblioteca Swing, a biblioteca AWT (Abstract Window Toolkit) e o JavaFX?
 R: 
