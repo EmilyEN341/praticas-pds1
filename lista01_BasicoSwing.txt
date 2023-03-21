@@ -54,9 +54,9 @@ String cpf = txtCpf.getText();
 6.Pesquise e descreva três principais características entre a biblioteca Swing, a biblioteca AWT (Abstract Window Toolkit) e o JavaFX?
 R:
 
-- Swing:
-- AWT:
-- JavaFX:
+- Swing:  variedade de componentes; facilidade de alteração da aparência; acessibildade (recursos para deficiêntes físicos);
+- AWT: A API Swing procura renderizar/desenhar por conta própria todos os componentes, ao invés de delegar essa tarefa ao sistema operacional, como a maioria das outras APIs de interface gráfica trabalham.
+- JavaFX: permite que os desenvolvedores integrem gráficos de vetor, recursos Web de animação, áudio e vídeo em uma aplicação rica, interativa e imersiva
 
 7.Pesquise o conceito de “Look & Feel” dentro do contexto de interfaces gráficas com Swing no Java. Procure alguns exemplos de temas, como o tema FlatLaf ([https://github.com/JFormDesigner/FlatLaf](https://github.com/JFormDesigner/FlatLaf)). (Dica: você pode explorar opções no GitHub.)
 
