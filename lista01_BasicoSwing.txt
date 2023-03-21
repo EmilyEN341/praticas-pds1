@@ -59,9 +59,8 @@ R:
 - JavaFX: permite que os desenvolvedores integrem gráficos de vetor, recursos Web de animação, áudio e vídeo em uma aplicação rica, interativa e imersiva
 
 7.Pesquise o conceito de “Look & Feel” dentro do contexto de interfaces gráficas com Swing no Java. Procure alguns exemplos de temas, como o tema FlatLaf ([https://github.com/JFormDesigner/FlatLaf](https://github.com/JFormDesigner/FlatLaf)). (Dica: você pode explorar opções no GitHub.)
-A “cara” de um aplicativo, o qual determina em grande parte como o usuário percebe seu aplicativo e interage com ele.
 
-Tecnicamente falando, um Look & Feel é um componente modular que pode ser facilmente integrado a um aplicativo Swing como uma biblioteca de software. Isso pode ser feito antes, durante ou após a implementação de um aplicativo.
+A “cara” de um aplicativo, o qual determina em grande parte como o usuário percebe seu aplicativo e interage com ele. Um componente modular que pode ser facilmente integrado a um aplicativo Swing como uma biblioteca de software. Isso pode ser feito antes, durante ou após a implementação de um aplicativo.
 E é exatamente essa a vantagem: ter a oportunidade de integrar retrospectivamente o Look & Feels torna possível modernizar opticamente os aplicativos existentes.
 O risco de fazer isso é baixo porque a lógica de negócios existente não precisa ser alterada. Portanto, um Java Swing Look & Feel é ideal para melhorar visualmente aplicativos ainda mais complexos e desenvolvidos historicamente com pouco esforço.
 
