@@ -62,9 +62,7 @@ R:
 A “cara” de um aplicativo, o qual determina em grande parte como o usuário percebe seu aplicativo e interage com ele.
 
 Tecnicamente falando, um Look & Feel é um componente modular que pode ser facilmente integrado a um aplicativo Swing como uma biblioteca de software. Isso pode ser feito antes, durante ou após a implementação de um aplicativo.
-
 E é exatamente essa a vantagem: ter a oportunidade de integrar retrospectivamente o Look & Feels torna possível modernizar opticamente os aplicativos existentes.
-
 O risco de fazer isso é baixo porque a lógica de negócios existente não precisa ser alterada. Portanto, um Java Swing Look & Feel é ideal para melhorar visualmente aplicativos ainda mais complexos e desenvolvidos historicamente com pouco esforço.
 
 
